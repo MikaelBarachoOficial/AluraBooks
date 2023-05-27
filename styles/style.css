@@ -1,0 +1,24 @@
+@import url(./header.css);
+
+:root {
+
+    --transicao: 0.25s;
+
+    --cor-fundo: #EBECEE;
+    --branco: #FFFFFF;
+
+}
+
+.dark-mode {
+
+    --cor-fundo: #161616;
+    --branco: #000000;
+
+}
+
+body {
+    
+    background-color: var(--cor-fundo);
+    transition: var(--transicao);
+
+}
