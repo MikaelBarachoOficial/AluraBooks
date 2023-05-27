@@ -6,3 +6,4 @@
 | ---------------- | ------ |
 | HTML  | Em Desenvolvimento |
 | CSS   | Em Desenvolvimento |
+| script do Dark Mode|| Concluído |
