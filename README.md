@@ -1,4 +1,4 @@
-# robotron-2000
+# AluraBooks Layout
 
 >Status: Em desenvolvimento.
 
@@ -6,4 +6,4 @@
 | ---------------- | ------ |
 | HTML  | Em Desenvolvimento |
 | CSS   | Em Desenvolvimento |
-| script do Dark Mode|| Concluído |
+| script do Dark Mode| Concluído |

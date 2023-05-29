@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url(./header.css);
 
 :root {
 
     --transicao: 0.25s;
 
+    --fonte-principal: 'poppins', sans-serif;
+
     --cor-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --darkMode-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
 
 }
 
@@ -13,6 +20,9 @@
 
     --cor-fundo: #161616;
     --branco: #000000;
+    --azul-gradiente: linear-gradient(97.54deg, #005ca2 35.49%, #0095ff 165.37%);
+
+    --darkMode-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
 
 }
 
