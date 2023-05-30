@@ -54,6 +54,9 @@
 
 .cabecalho__menu-icon__checkbox:checked ~ .cabecalho__menu-icon__label {
     background: var(--azul-gradiente);
+    height: 65%;
+    display: flex;
+    align-items: center;
 }
 
 .lista-menu__titulo, .lista-menu__item {
