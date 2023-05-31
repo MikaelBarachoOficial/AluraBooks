@@ -1,0 +1,92 @@
+.card {
+    background-color: var(--branco);
+    margin: 1em;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+
+    box-shadow: var(--sombreamento);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* LINHA 1 */
+.card__line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card__line1__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    max-width: 52%;
+}
+
+.card__line1__descricao__titulo-card {
+    color: var(--laranja);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card__line1__descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.card__line1__descricao__descricao-livro{
+    color: var(--preto85);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.card__img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+/* LINHA 2 */
+.card__line2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__line2__botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1.7em;
+    padding: 1em;
+}
+
+.card__line2__botoes__favoritar {
+    background: url(../imgs/Favoritos.svg) no-repeat;
+    background-size: 1.5em;
+    width: 1.5em;
+}
+
+.card__line2__botoes__carrinho {
+    background: url(../imgs/Compras.svg) no-repeat;
+    background-size: 1.3em;
+    width: 1.8em;
+}
+
+.card__line2__botoes__inputs {
+    opacity: 0;
+    width: 2em;
+    height: 2em;
+}
+
+.card__line2__saiba-mais {
+    background-color: var(--laranja);
+    color: var(--branco-imutavel);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1em 1.94em;
+}
