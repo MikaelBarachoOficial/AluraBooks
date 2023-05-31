@@ -49,7 +49,7 @@
 
 .cabecalho__menu-icon__checkbox:checked ~ .lista-menu {
     display: block;
-
+    z-index: 10;
 }
 
 .cabecalho__menu-icon__checkbox:checked ~ .cabecalho__menu-icon__label {
@@ -84,7 +84,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     
-
+    text-transform: uppercase;
 }
 
 #dark-mode /*input*/ {

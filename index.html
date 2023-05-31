@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
     <link rel="icon" href="./imgs/Logo.svg">
     <title>AluraBooks</title>
 </head>
@@ -58,6 +60,35 @@
         <input class="banner__pesquisa" type="search" placeholder="Qual será sua próxima leitura?">
     </section>
 
+    <!-- CARROSSEL -->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Angular.svg" alt="Livro sobre Angular"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/ApacheKafka.svg" alt="Livro sobre ApacheKafka"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Arquitetura.svg" alt="Livro sobre Arquitetura"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Guia Front-end.svg" alt="Livro sobre Guia Front-end"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Javascript.svg" alt="Livro sobre Javascript"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/MEAN.svg" alt="Livro sobre MEAN"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Nodejs.svg" alt="Livro sobre NodeJS"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Portugol.svg" alt="Livro sobre Portugol"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/ReactNative.svg" alt="Livro sobre ReactNative"></a></div>
+                <div class="swiper-slide"><a href=""><img src="./imgs/livros/Tuning.svg" alt="Livro sobre Tuning"></a></div>
+                
+            </div>
+            
+        </div>
+    </section>
+
     <script src="./scripts/dark-mode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./scripts/carrossel-swiperJS.js"></script>
 </body>
 </html>
