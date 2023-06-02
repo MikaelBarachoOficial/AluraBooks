@@ -1,0 +1,46 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+    background-color: var(--branco);
+
+    font-family: var(--fonte-principal);
+    padding: 1.5em 1em;
+}
+
+.newsletter__descricao__titulo, .newsletter__descricao__texto {
+    background: var(--azul-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.newsletter__descricao__titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.newsletter__descricao__texto {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1em 0;
+}
+
+/* INPUT */
+.newsletter__campo-email {
+    background: transparent;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    padding: 1em;
+}
+
+.newsletter__campo-email::placeholder {
+    background: url(../imgs/envelope.svg) no-repeat;
+    background-position: 0em 0.25em;
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    padding-left: 2em;
+    font-size: 1rem;
+    font-weight: 400;
+}
