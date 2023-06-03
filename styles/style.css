@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 @import url(./header.css);
 @import url(./banner.css);
 @import url(./carrossel.css);
@@ -12,6 +12,7 @@
     --transicao: 0.25s;
 
     --fonte-principal: 'poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
 
     --cor-fundo: #EBECEE;
     --branco: #FFFFFF;
@@ -19,6 +20,7 @@
     --laranja: #EB9B00;
     --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
+    --preto: #000000;
     --preto85: #000000D9;
 
     --sombreamento: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -32,6 +34,7 @@
     --preto85: #ffffffd9;
     --cor-fundo: #161616;
     --branco: #060606;
+    --preto: #FFFFFF;
     --azul-gradiente: linear-gradient(97.54deg, #014376 35.49%, #2d86c6 165.37%);
 
     --darkMode-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
