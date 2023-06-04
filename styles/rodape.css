@@ -7,11 +7,81 @@ hr {
 
     font-family: var(--fonte-principal);
     padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
 }
 
 .rodape__titulo {
     color: black;
     font-size: 1rem;
     font-weight: 400;
-    
+
+}
+
+.rodape__listas {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+
+}
+
+.rodape__listas__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rodape__listas h4 {
+    color: var(--cinza);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.rodape__listas__lista__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    gap: 0.3em;
+
+    color: var(--cinza-escuro);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 860px) {
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;
+        width: 10em;
+    }
+
+    .rodape__listas {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-around;
+
+        text-align: start;
+    }
+
+    .rodape__listas__lista__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        gap: 0.3em;
+    }
+
 }

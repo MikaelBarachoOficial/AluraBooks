@@ -40,3 +40,30 @@
     font-weight: 700;
     color: var(--branco-imutavel);
 }
+
+@media screen and (min-width: 983px) {
+
+    .topicos__divisao {
+        display: none;
+    }
+
+    .topicos__titulo {
+        font-size: 1.5rem;
+        padding-top: 1.5em;
+    }
+
+    .topicos__lista {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+
+    .topicos__lista__item {
+        padding: 2em;
+    }
+
+    .topicos__lista__item a {
+        font-size: 1.5rem;
+    }
+
+}

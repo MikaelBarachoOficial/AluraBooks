@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <link rel="icon" href="./imgs/Logo.svg">
     <title>AluraBooks</title>
@@ -40,9 +40,9 @@
             <a href=""><img src="./imgs/Logo.svg" alt="Logo do AluraBooks" class="container__imagem cabecalho__logo"></a>
             <h1 class="container__titulo-site"><span class="titulo-site__negrito">Alura</span>Books</h1>
         </div>
-            <nav class="container cabecalho__nav1024">
-                <input id="cabecalho__nav1024__categorias" type="checkbox">
-                <label for="cabecalho__nav1024__categorias" href="" class="cabecalho__nav1024__categorias">CATEGORIAS</label>
+            <nav class="container cabecalho__nav-tablet">
+                <input id="cabecalho__nav-tablet__categorias" type="checkbox">
+                <label for="cabecalho__nav-tablet__categorias" href="" class="cabecalho__nav-tablet__categorias">CATEGORIAS</label>
 
                 <ul class="lista-menu">
                     <li class="lista-menu__item">
@@ -113,6 +113,9 @@
             </div>
 
         </div>
+         <!-- If we need navigation buttons -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
     </section>
 
     <!-- CARD-->
@@ -162,6 +165,9 @@
             </div>
 
         </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </section>
 
     <!-- CARD -->
@@ -245,8 +251,80 @@
 
     <!-- RODAPÉ -->
     <footer class="rodape">
-        <h2 class="rodape__titulo">Grupo Alura •</h2>
-        <h3 class="rodape__titulo">Desenvolvido por Mikael Baracho.</h3>
+        <div class="rodape__titulo">
+        <h2>Grupo Alura •</h2>
+        <h3>Desenvolvido por Mikael Baracho</h3>
+        </div>
+
+        <div class="rodape__listas">
+            <div>
+                <h4>EDUCAÇÃO</h4>
+                <ul class="rodape__listas__lista">
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/Caelum.svg" alt="">Caelum</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/CasaDoCodigo.svg" alt="">Casa do Código</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <h4>EDUCAÇÃO ONLINE</h4>
+                <ul class="rodape__listas__lista">
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/Alura.svg" alt="">Alura</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/AluraEmpresas.svg" alt="">Alura Para Empresas</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/AluraLATAM.svg" alt="">Alura LATAM</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/AluraStart.svg" alt="">Alura Start</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/MusicDot.svg" alt="">MusicDot</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/AluraLingua.svg" alt="">Alura Língua</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/PM3.svg" alt="">PM3</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <h4>COMUNIDADE</h4>
+                <ul class="rodape__listas__lista">
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/HipstersTech.svg" alt="">Hipsters ponto Tech</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/ScubaDev.svg" alt="">Scuba Dev</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/LayersTech.svg" alt="">Layers ponto Tech</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/LikeABoss.svg" alt="">Like a Boss</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/CarreiraSemFronteira.svg" alt="">Carreira sem Fronteira</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/HipstersJobs.svg" alt="">Hipsters ponto Jobs</a>
+                    </li>
+                    <li>
+                        <a class="rodape__listas__lista__link" href=""><img src="./imgs/footer/GUJ.svg" alt="">GUJ</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+      
     </footer>
 
     <script src="./scripts/dark-mode.js"></script>

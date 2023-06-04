@@ -81,3 +81,17 @@
     font-weight: 700;
     padding: 1em 1.94em;
 }
+
+@media screen and (min-width: 574px) {
+
+    .card {
+        margin: 1em auto 3em auto;
+        width: 50%;
+    }
+
+    .card__line1__descricao {
+        max-width: 70%;
+        margin-top: 0.5em;
+    }
+
+}

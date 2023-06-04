@@ -44,3 +44,30 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+@media screen and (min-width: 740px) {
+    
+    .newsletter {
+        flex-direction: row;
+        align-items: center;
+        padding: 2em 6em;
+        justify-content: space-evenly;
+
+    }
+    
+    .newsletter__campo-email {
+        min-width: 20em;
+        height: 1em;
+        
+    }
+
+    .newsletter__descricao {
+        width: 40%;
+    }
+
+    .newsletter__descricao__titulo {
+        font-size: 1.5rem;
+        
+    }
+
+}

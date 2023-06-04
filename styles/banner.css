@@ -43,3 +43,23 @@
 
 }
 
+/* TABLET */
+@media screen and (min-width: 750px) {
+
+    .banner {
+        padding: 5em 2.5em;
+    }
+
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__texto {
+        margin: 1em 0 2em 0;
+    }
+
+    .banner__pesquisa {
+        
+        width: 50%;
+    }
+}
