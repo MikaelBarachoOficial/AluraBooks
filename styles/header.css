@@ -18,6 +18,12 @@
 
 }
 
+.container a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
 .cabecalho__menu-icon {
     background-image: url(../imgs/Menu.svg);
     top: 4%;
@@ -151,6 +157,10 @@
         text-decoration: none;
         color: var(--preto);
         padding: 0 1em;
+        user-select: none;
+
+        cursor: pointer;
+
     }
 
     .container__imagem {

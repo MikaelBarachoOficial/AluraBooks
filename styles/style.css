@@ -24,6 +24,7 @@
     --cinza-escuro: #474646;
     --preto: #000000;
     --preto85: #000000D9;
+    --cor-footer: #F9F9F9;
 
     --sombreamento: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -47,5 +48,6 @@ body {
     
     background-color: var(--cor-fundo);
     transition: var(--transicao);
+    /* width: 100vw; */
 
 }

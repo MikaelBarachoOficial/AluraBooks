@@ -1,6 +1,6 @@
 .topicos__divisao {
     background-color: var(--branco);
-    width: 100vw;
+    width: 100%;
     height: 1em;
 }
 
@@ -8,7 +8,7 @@
     background: var(--azul-gradiente);
     font-family: var(--fonte-principal);
     text-align: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .topicos__titulo {

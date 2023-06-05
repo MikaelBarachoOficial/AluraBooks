@@ -45,10 +45,11 @@
         background: var(--azul-gradiente);
         padding: 1em;
         border-radius: 450px;
+        opacity: 0.4;
 
-        /* margin: 0 -1em 0 -0.9em; */
-        position: absolute;
-        margin-top: 200px;
+        margin: 0;
+        /* position: absolute; */
+        /* max-width: 10px; */
     }
 
 }
