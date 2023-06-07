@@ -3,6 +3,7 @@ var darkTexto = document.getElementById('dark-mode__texto')
 
 if (darkVerifica === 'on') {
     document.body.classList.add('dark-mode')
+    darkTexto.innerHTML = 'Light mode'
 }
 
 document.getElementById('dark-mode').addEventListener('click', () => {
