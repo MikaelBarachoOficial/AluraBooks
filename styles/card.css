@@ -100,8 +100,10 @@
 
     .card {
         
-        margin: 4em 3em 2.5em 3em;
+        margin: 4em auto 2.5em 3em;
         width: 35%;
+        max-height: 20em;
+        max-width: 50em;
         
     }
 

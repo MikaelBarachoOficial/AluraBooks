@@ -62,6 +62,7 @@
 
     .swiper {
         width: 50%;
+        max-width: 60em;
     }
 
     
