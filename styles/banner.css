@@ -70,3 +70,13 @@
     } */
 
 }
+
+/* DESKTOP */
+@media screen and (min-width: 1400px) {
+
+    .banner__pesquisa {
+        
+        width: 36%;
+    }
+
+}

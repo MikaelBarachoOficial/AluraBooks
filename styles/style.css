@@ -35,10 +35,12 @@
 .dark-mode {
 
     --preto85: #ffffffd9;
-    --cor-fundo: #161616;
-    --branco: #060606;
+    --cor-fundo: #424141;
+    --branco: #161616;
     --preto: #FFFFFF;
-    --azul-gradiente: linear-gradient(97.54deg, #014376 35.49%, #2d86c6 165.37%);
+    --azul: #02477b;
+    --azul-gradiente: linear-gradient(97.54deg, #005799 35.49%, #2074b0 165.37%);
+    --cor-footer: #cecdcd;
 
     --darkMode-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
 

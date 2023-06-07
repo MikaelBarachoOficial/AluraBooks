@@ -2,8 +2,14 @@
 
 >Status: Em desenvolvimento.
 
+### Nesse projeto foi implementado Mobile-first, Dark mode, e aprimorado habilidades com HTML e CSS no geral. 
+
 | Parte do Projeto | Status |
 | ---------------- | ------ |
-| HTML  | Em Desenvolvimento |
-| CSS   | Em Desenvolvimento |
-| script do Dark Mode| Concluído |
+| HTML  | Concluído |
+| CSS   | Concluído |
+| Dark Mode| Concluído |
+| Responsivo de mobile | Concluído |
+| Responsivo de Tablet | Concluído |
+| Responsivo de Desktop| Concluído |
+| Interação | Em Desenvolvimento |

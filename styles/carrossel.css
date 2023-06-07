@@ -1,13 +1,10 @@
-.carrossel {
-    font-family: var(--fonte-principal);
-}
-
 .carrossel__titulo {
     text-transform: uppercase;
     color: var(--laranja);
     text-align: center;
     padding: 1em 0 0.5em 0;
-    background-color: var(--branco)
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
 }
 
 .swiper-slide img{
@@ -52,4 +49,21 @@
         /* max-width: 10px; */
     }
 
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .container__carrossel {
+        display: flex;
+        margin: 3em auto;
+        justify-content: center;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        top: 11em;
+    }
 }

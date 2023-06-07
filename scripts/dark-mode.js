@@ -1,4 +1,5 @@
 var darkVerifica = localStorage.getItem('dark-mode')
+var darkTexto = document.getElementById('dark-mode__texto')
 
 if (darkVerifica === 'on') {
     document.body.classList.add('dark-mode')
@@ -10,10 +11,12 @@ document.getElementById('dark-mode').addEventListener('click', () => {
     if (darkVerifica === 'off' || darkVerifica === null){
         document.body.classList.add('dark-mode')
         localStorage.setItem('dark-mode', 'on')
+        darkTexto.innerHTML = 'Light mode'
 
     } else if (darkVerifica === 'on') {
         document.body.classList.remove('dark-mode')
         localStorage.setItem('dark-mode', 'off')
+        darkTexto.innerHTML = 'Dark mode'
 
     }
 })

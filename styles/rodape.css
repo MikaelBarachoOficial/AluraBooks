@@ -60,11 +60,20 @@ hr {
         padding-top: 3em;
         display: flex;
         flex-direction: row;
+        padding-bottom: 4em;
     }
 
     .rodape__titulo {
-        font-size: 1.5rem;
         width: 10em;
+    }
+
+    .rodape__titulo h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.4em;
+    }
+
+    .rodape__titulo h3 {
+        font-size: 1rem;
     }
 
     .rodape__listas {
@@ -83,6 +92,21 @@ hr {
         align-items: center;
         margin-left: 0;
         gap: 0.3em;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .rodape {
+        padding-top: 4em;
+        justify-content: center;
+    }
+
+    .rodape__listas div {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+        height: 100%
     }
 
 }

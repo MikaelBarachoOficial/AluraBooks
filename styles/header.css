@@ -18,7 +18,7 @@
 
 }
 
-.container a {
+.cabecalho__logo-e-titulo {
     display: flex;
     text-decoration: none;
     align-items: center;
@@ -117,9 +117,14 @@
     background-position: center;
     background-size: 2em;
     padding: 1em;
-    cursor: pointer; 
+    cursor: pointer;
     user-select: none;
 
+}
+
+.container__click__texto {
+    display: none;
+    cursor: pointer;
 }
 
 /* TABLET */
@@ -199,4 +204,40 @@
         display: flex;
         align-items: center;
     }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .cabecalho__nav-tablet {
+        display: flex;
+        margin-right: auto;
+    }
+
+    .container {
+        padding: 0 3em;
+    }
+
+    .container__imagem {
+        margin: 0;
+    }
+
+    .container__click {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.4em;
+        padding: 1em;
+
+        text-decoration: none;
+        color: var(--preto);
+        font-family: var(--fonte-principal);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .container__click__texto {
+        display: block;
+        
+    }
+
 }
