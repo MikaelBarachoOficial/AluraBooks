@@ -1,6 +1,6 @@
 # AluraBooks Layout
 
->Status: Em desenvolvimento.
+>Status: Concluído.
 
 ### Nesse projeto foi implementado Mobile-first, Dark mode, e aprimorado habilidades com HTML e CSS no geral. 
 
@@ -12,4 +12,4 @@
 | Responsivo de mobile | Concluído |
 | Responsivo de Tablet | Concluído |
 | Responsivo de Desktop| Concluído |
-| Interação | Em Desenvolvimento |
+| Interação | Concluído |

@@ -19,6 +19,7 @@
     --branco-imutavel: #FFFFFF;
     --laranja: #EB9B00;
     --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul-gradiente-categorias: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
     --cinza: #858585;
     --cinza-escuro: #474646;
@@ -36,10 +37,11 @@
 
     --preto85: #ffffffd9;
     --cor-fundo: #424141;
-    --branco: #161616;
+    --branco: #000000;
     --preto: #FFFFFF;
     --azul: #02477b;
     --azul-gradiente: linear-gradient(97.54deg, #005799 35.49%, #2074b0 165.37%);
+    --azul-gradiente-categorias: #FFFFFF;
     --cor-footer: #cecdcd;
 
     --darkMode-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
